@@ -5,7 +5,7 @@ def index(request):
     return HttpResponse("Hello, Django Blog!")
 
 def about(request):
-    return HttpResponse("About page")
+    return HttpResponse("About page - WELCOME ASUODHASUIODHASUI")
 
 def post_list(request):
     return HttpResponse("Post list coming soon")
